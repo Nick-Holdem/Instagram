@@ -1,0 +1,30 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "DEMO — копия_c39be928"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<DEMO_a1c8a082>",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "DEMO_a1c8a082",
+            "vmArgs": "--module-path C:/Users/User/Documents/IAR/javafx-sdk-19/lib --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
